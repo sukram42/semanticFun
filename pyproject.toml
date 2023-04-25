@@ -18,6 +18,7 @@ scikit-learn = "^1.2.2"
 plotly = "^5.14.1"
 pydantic = "^1.10.7"
 scikit-opt = "^0.6.6"
+umap-learn = "^0.5.3"
 
 
 [build-system]
