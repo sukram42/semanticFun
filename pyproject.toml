@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "streamlitnlpproject"
+version = "0.1.0"
+description = ""
+authors = ["Markus Böbel <markus.boebel@tum.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.9.7 || >3.9.7,<4.0"
+streamlit = "^1.21.0"
+gensim = "^4.3.1"
+numpy = "1.23.1"
+transformers = "^4.28.1"
+torch = "^2.0.0"
+accelerate = "^0.18.0"
+sentence-transformers = "^2.2.2"
+scikit-learn = "^1.2.2"
+plotly = "^5.14.1"
+pydantic = "^1.10.7"
+scikit-opt = "^0.6.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
