@@ -41,15 +41,6 @@ if 'sentences' not in st.session_state:
 if 'perplexity' not in st.session_state:
     st.session_state.perplexity = 3
 
-
-#
-with st.form("my_form"):
-   st.write("Inside the form")
-   st.text_area("Add a new Sentence", key="increment_sentences")
-
-   # Every form must have a submit button.
-   submitted = st.form_submit_button("Submit", on_click=submit_form)
-
 n_sentences = len(st.session_state.sentences)
 #
 st.write(st.session_state.sentences)
